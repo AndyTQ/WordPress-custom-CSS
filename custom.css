@@ -1,0 +1,58 @@
+@media (min-width: 1024px){
+	.header-background .hero, .hero-background .hero {
+    height: 0vw;
+	}
+
+	.page.header-background .content-area, .page.hero-background .content-area, .single.no-sidebar.header-background .content-area, .single.no-sidebar.hero-background .content-area, .single.sidebar-bottom.header-background .content-area, .single.sidebar-bottom.hero-background .content-area {
+		margin-top: 0px;
+		z-index: 100;
+	}
+
+	.site-header {
+		border-left: 0;
+		border-right: 0;
+		border-top: 200px solid transparent;
+		border-image: url('http://andydi.com/header_bg.jpg') 200 round;
+	}
+
+	.default-navbar{
+		background: rgba(20,20,20,0.9);
+		margin-bottom: -5px;
+	}
+
+
+	.footer-menu-section .current-menu-item a, .footer-menu-section a:focus, .footer-menu-section a:hover, .main-navigation .current-menu-item a, .main-navigation a:focus, .main-navigation a:hover {
+		background-color: transparent;
+		border-bottom-color: #ffffff;
+		color: #ffffff;
+	}
+
+	.default-hero{
+		display: none;
+	}
+
+	.footer-menu-section, .main-navigation {
+		color: #bcbcbc;
+	}
+
+	.content-wrapper { max-width: 95%; }
+
+	#post-171, #post-86{
+		border-top: 0;
+	}
+
+	.wp-image-671{
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 1023px){
+	.hero{
+		min-height: 0px;
+		height: 150px;
+	}
+	
+	.site-title a, .site-description {
+    color: #333333;
+}
+}
